@@ -15,7 +15,7 @@ def load_torch_model(model_name):
 def load_tf_model(model_url):
     return hub.load(model_url)
 
-st.image("PragyanAI_Transperent.png"
+st.image("PragyanAI_Transperent.png")
 st.title("Pretrained Model Hub Interface")
 
 hub_choice = st.selectbox("Select Model Hub", ["Hugging Face", "PyTorch", "TensorFlow Hub"])
